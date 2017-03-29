@@ -21,5 +21,5 @@ function Coder(nombre, apellido, correo, pass){
 };
 
 document.getElementsByTagName("button")[0].addEventListener("click",function(){
-		//window.location=".html"
-	})
+		window.location="edit.html";
+});
