@@ -1,8 +1,4 @@
-window.onload=function(){
 
-	document.getElementById("form").onsubmit=function(e){
-		e.preventDefault();
-	}
 
 	document.getElementById("register").addEventListener("click",function(event){
 		event.preventDefault();
@@ -101,6 +97,3 @@ window.onload=function(){
 
 	}
 	datosCoder[3].onkeypress=passNumeric;
-
-
-};

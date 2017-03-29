@@ -3,7 +3,7 @@ var nombre = document.getElementById('nombre-coder');
 var apellido = document.getElementById('apellido-coder');
 var correo = document.getElementById('correo-coder');
 var pass = document.getElementById('pass-coder');
-
+//devolviendo datos del objet en localstorage:
 var objetoCoder = JSON.parse(localStorage.getItem("nuevaCoder"));
 
 nombre.innerText=objetoCoder.nombre;

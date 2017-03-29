@@ -1,4 +1,4 @@
-
+//Funciones para direccionar al home o a sign up:
 document.getElementsByTagName("button")[0].addEventListener("click",function(){
 
 	window.location="register.html";
